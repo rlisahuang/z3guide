@@ -47,7 +47,7 @@ async function createConfig() {
   const config = {
     title: 'Online Z3 Guide',
     tagline: '',
-    url: 'https://microsoft.github.io/',
+    url: 'https://rlisahuang.github.io/',
     baseUrl: '/z3guide/',
     staticDirectories: ['static'],
     favicon: '/img/favicon.ico',
@@ -56,7 +56,7 @@ async function createConfig() {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'microsoft', // Usually your GitHub org/user name.
+    organizationName: 'rlisahuang', // Usually your GitHub org/user name.
     projectName: 'z3guide', // Usually your repo name.
     deploymentBranch: 'gh-pages', // name of the deployment branch
 
@@ -79,7 +79,7 @@ async function createConfig() {
           remarkPlugins: [math],
           rehypePlugins: [katex],
           editUrl:
-            'https://github.com/microsoft/z3guide/tree/main/website',
+            'https://github.com/rlisahuang/z3guide/tree/main/website',
           // ... other options for the docs, just as in `presets -> docs`
         },
       ],
@@ -93,7 +93,7 @@ async function createConfig() {
           remarkPlugins: [math],
           rehypePlugins: [katex],
           editUrl:
-            'https://github.com/microsoft/z3guide/tree/main/website',
+            'https://github.com/rlisahuang/z3guide/tree/main/website',
           // ... other options for the docs, just as in `presets -> docs`
         },
       ],
@@ -131,7 +131,7 @@ async function createConfig() {
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
             editUrl:
-              'https://github.com/microsoft/z3guide/tree/main/website',
+              'https://github.com/rlisahuang/z3guide/tree/main/website',
           },
           theme: {
             customCss: require.resolve('./src/css/custom.css'),
@@ -180,7 +180,7 @@ async function createConfig() {
             },
             // link to the github repo of this site
             {
-              href: 'https://github.com/microsoft/z3guide',
+              href: 'https://github.com/rlisahuang/z3guide',
               label: 'GitHub',
               position: 'right',
             },
@@ -228,7 +228,7 @@ async function createConfig() {
               items: [
                 {
                   label: 'GitHub',
-                  href: 'https://github.com/microsoft/z3guide',
+                  href: 'https://github.com/rlisahuang/z3guide',
                 },
                 {
                   label: 'Twitter',
