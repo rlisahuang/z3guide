@@ -46,7 +46,7 @@ async function createConfig() {
   // where information such as course title, description etc. are configured
   const config = {
     title: 'Online Z3 Guide',
-    tagline: '',
+    tagline: 'Archived version, August 2022',
     url: 'https://rlisahuang.github.io/',
     baseUrl: '/z3guide/',
     staticDirectories: ['static'],
